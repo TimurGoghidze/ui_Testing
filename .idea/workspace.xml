@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87237b75-6c81-4bfd-8fd3-49fe06ef12d0" name="Changes" comment="add try catch">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cats.java" afterDir="false" />
-    </list>
+    <list default="true" id="87237b75-6c81-4bfd-8fd3-49fe06ef12d0" name="Changes" comment="add new Tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,12 +108,20 @@
       <option name="project" value="LOCAL" />
       <updated>1678658140378</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add new Tests">
+      <created>1678661926163</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678661926163</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Cats and tests" />
     <MESSAGE value="add try catch" />
-    <option name="LAST_COMMIT_MESSAGE" value="add try catch" />
+    <MESSAGE value="add new Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new Tests" />
   </component>
 </project>
