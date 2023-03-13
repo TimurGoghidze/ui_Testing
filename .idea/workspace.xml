@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87237b75-6c81-4bfd-8fd3-49fe06ef12d0" name="Changes" comment="add new Tests" />
+    <list default="true" id="87237b75-6c81-4bfd-8fd3-49fe06ef12d0" name="Changes" comment="add new Main">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cats.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +45,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Cats.checkCatsCardsQuantity">
+  <component name="RunManager" selected="JUnit.Cats.checkDownCatText">
     <configuration name="Cats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cats" />
       <module name="ui-testing" />
@@ -60,6 +63,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Cats.checkDownCatText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ui-testing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Cats" />
+      <option name="METHOD_NAME" value="checkDownCatText" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Cats.checkHeaderText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ui-testing" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Cats.checkDownCatText" />
         <item itemvalue="JUnit.Cats.checkCatsCardsQuantity" />
         <item itemvalue="JUnit.Cats.checkHeaderText" />
         <item itemvalue="Application.Cats" />
@@ -115,13 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678661926163</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add new Main">
+      <created>1678662113338</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678662113338</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Cats and tests" />
     <MESSAGE value="add try catch" />
     <MESSAGE value="add new Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new Tests" />
+    <MESSAGE value="add new Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new Main" />
   </component>
 </project>
