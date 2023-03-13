@@ -28,11 +28,14 @@ public class Cats {
     @Test
     public void checkHeaderText() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); //явное ожидание для конкретного элемента
-        WebElement header = driver.findElement(By.className("jumbotron-heading"));  //чтобы работать с вебэлементами и находить их
-        wait.until(ExpectedConditions.visibilityOf(header)); //ожидаем видимый header
+        WebElement header = wait.until(ExpectedConditions.presenceOfElementLocated(By.className("jumbotron-heading")));  //чтобы работать с вебэлементами и находить их
         String expectedHeaderText = "Cat memes";
         assertEquals("This is not Elements does not contains text:" + expectedHeaderText, expectedHeaderText, header.getText()); // dependencies junit &
-        // header.getText(); вернет текстовое значение которое внутри этого элемента
+//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); //явное ожидание для конкретного элемента
+//        WebElement header = driver.findElement(By.className("jumbotron-heading"));  //чтобы работать с вебэлементами и находить их
+//        wait.until(ExpectedConditions.visibilityOf(header)); //ожидаем видимый header
+//        String expectedHeaderText = "Cat memes";
+//        assertEquals("This is not Elements does not contains text:" + expectedHeaderText, expectedHeaderText, header.getText()); // dependencies junit &
     }
 
     @Test
@@ -49,7 +52,7 @@ public class Cats {
         WebElement nameOfSecondCardCat = driver.findElement(By.cssSelector("[class='col-sm-4']:nth-child(2) .card-body [class='card-text second']"));
         wait.until(ExpectedConditions.visibilityOf(nameOfSecondCardCat));
         String expectedHeaderText = "Serious cat";
-        assertEquals( expectedHeaderText, nameOfSecondCardCat.getText());
+        assertEquals(expectedHeaderText, nameOfSecondCardCat.getText());
     }
 
     @Test
@@ -58,24 +61,37 @@ public class Cats {
         WebElement downCatMemesText = driver.findElement(By.cssSelector("#moto"));
         wait.until(ExpectedConditions.visibilityOf(downCatMemesText));
         String expectedText = "If there's one thing that the internet was made for, it's funny cat memes.";
-        assertEquals( expectedText, downCatMemesText.getText());
+        assertEquals(expectedText, downCatMemesText.getText());
     }
+
     @Test
     public void checkUpCatAlbum() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement tipUpCatsAlbum = driver.findElement(By.xpath("//strong[contains(text(),'Cats album')]"));
         wait.until(ExpectedConditions.visibilityOf(tipUpCatsAlbum));
         String expectedText = "Cats album";
-        assertEquals( expectedText, tipUpCatsAlbum.getText());
+        assertEquals(expectedText, tipUpCatsAlbum.getText());
     }
+
     //strong[contains(text(),'Cats album')]
     @Test
-    public void checkEditButtonSixCat(){
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+    public void checkEditButtonSixCat() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement editSixCat = driver.findElement(By.cssSelector("[class='col-sm-4']:nth-child(6) .card-body [type='button']:nth-child(2)"));
         wait.until(ExpectedConditions.visibilityOf(editSixCat));
         String expectedText = "Edit";
-        assertEquals(expectedText,editSixCat.getText());
+        assertEquals(expectedText, editSixCat.getText());
+    }
+
+    @Test
+    public void checkTimeSecondCat() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement timeSecondCat = wait.until(ExpectedConditions.presenceOfElementLocated
+                (By.xpath("(//small[@class='text-muted'])[2]")));
+//        WebElement timeSecondCat = wait.until(ExpectedConditions.visibilityOfElementLocated(
+//                        (By.xpath("(//small[@class='text-muted'])[2]")));
+        String expectedHeaderText = "9 mins";
+        assertEquals("Elements contains text:" + expectedHeaderText, expectedHeaderText, timeSecondCat.getText());
     }
 
 

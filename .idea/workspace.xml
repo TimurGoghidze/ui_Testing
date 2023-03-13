@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87237b75-6c81-4bfd-8fd3-49fe06ef12d0" name="Changes" comment="add one more Test DownTextCatSearch an assert">
+    <list default="true" id="87237b75-6c81-4bfd-8fd3-49fe06ef12d0" name="Changes" comment="add 3 Tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Registration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cats.java" afterDir="false" />
     </list>
@@ -39,58 +40,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.Cats.checkEditButtonSixCat">
-    <configuration name="Cats.checkCatsCardsQuantity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="JUnit.Registration.notAllRequiredFields">
+    <configuration name="Cats.checkHeaderText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ui-testing" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Cats" />
-      <option name="METHOD_NAME" value="checkCatsCardsQuantity" />
+      <option name="METHOD_NAME" value="checkHeaderText" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cats.checkDownCatMemesText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Cats.checkTimeSecondCat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ui-testing" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Cats" />
-      <option name="METHOD_NAME" value="checkDownCatMemesText" />
+      <option name="METHOD_NAME" value="checkTimeSecondCat" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cats.checkDownCatText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Registration.allFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ui-testing" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Cats" />
-      <option name="METHOD_NAME" value="checkDownCatText" />
+      <option name="MAIN_CLASS_NAME" value="Registration" />
+      <option name="METHOD_NAME" value="allFields" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cats.checkEditButtonSixCat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Registration.notAllRequiredFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ui-testing" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Cats" />
-      <option name="METHOD_NAME" value="checkEditButtonSixCat" />
+      <option name="MAIN_CLASS_NAME" value="Registration" />
+      <option name="METHOD_NAME" value="notAllRequiredFields" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cats.checkUpCatAlbum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Registration.onlyRequiredField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ui-testing" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Cats" />
-      <option name="METHOD_NAME" value="checkUpCatAlbum" />
+      <option name="MAIN_CLASS_NAME" value="Registration" />
+      <option name="METHOD_NAME" value="onlyRequiredField" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Cats.checkEditButtonSixCat" />
-        <item itemvalue="JUnit.Cats.checkUpCatAlbum" />
-        <item itemvalue="JUnit.Cats.checkDownCatMemesText" />
-        <item itemvalue="JUnit.Cats.checkDownCatText" />
-        <item itemvalue="JUnit.Cats.checkCatsCardsQuantity" />
+        <item itemvalue="JUnit.Registration.notAllRequiredFields" />
+        <item itemvalue="JUnit.Registration.allFields" />
+        <item itemvalue="JUnit.Registration.onlyRequiredField" />
+        <item itemvalue="JUnit.Cats.checkTimeSecondCat" />
+        <item itemvalue="JUnit.Cats.checkHeaderText" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678668323067</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add 3 Tests">
+      <created>1678705978547</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678705978547</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -166,6 +175,7 @@
     <MESSAGE value="add new Tests" />
     <MESSAGE value="add new Main" />
     <MESSAGE value="add one more Test DownTextCatSearch an assert" />
-    <option name="LAST_COMMIT_MESSAGE" value="add one more Test DownTextCatSearch an assert" />
+    <MESSAGE value="add 3 Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 3 Tests" />
   </component>
 </project>
