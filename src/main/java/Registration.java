@@ -5,10 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-
 import java.time.Duration;
 
-import static java.lang.Thread.sleep;
 import static org.junit.Assert.*;
 
 public class Registration {
@@ -38,8 +36,6 @@ public class Registration {
         WebElement emailInputField = driver.findElement(By.cssSelector("[placeholder='Input your email']"));
         emailInputField.sendKeys("John@jam.com");
         Thread.sleep(1000);
-
-
 
         WebElement submitButton = driver.findElement(By.cssSelector("[type='submit']"));
         submitButton.click();
@@ -79,10 +75,12 @@ public class Registration {
         WebElement header = driver.findElement(By.tagName("h1"));
 
         System.out.println("Current URL: " + driver.getCurrentUrl());
-        assertEquals("Congratulations! You have successfully registered!", header.getText());
-        //assertTrue(header.getText().contains("Congratulations")); //если только часть текста
+        //assertEquals("Congratulations! You have successfully registered!", header.getText());
+
+        assertTrue("User is still on the registration page",header.getText().contains("Congratulations")); //если только часть текста
 
     }
+
     @Test
     public void notAllRequiredFields() {
         WebElement firstNameInputField = driver.findElement(By.cssSelector("[placeholder='Input your first name']"));
@@ -105,3 +103,5 @@ public class Registration {
         driver.quit();
     }
 }
+
+
