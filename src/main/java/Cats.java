@@ -52,6 +52,33 @@ public class Cats {
         assertEquals( expectedHeaderText, nameOfSecondCardCat.getText());
     }
 
+    @Test
+    public void checkDownCatMemesText() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement downCatMemesText = driver.findElement(By.cssSelector("#moto"));
+        wait.until(ExpectedConditions.visibilityOf(downCatMemesText));
+        String expectedText = "If there's one thing that the internet was made for, it's funny cat memes.";
+        assertEquals( expectedText, downCatMemesText.getText());
+    }
+    @Test
+    public void checkUpCatAlbum() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement tipUpCatsAlbum = driver.findElement(By.xpath("//strong[contains(text(),'Cats album')]"));
+        wait.until(ExpectedConditions.visibilityOf(tipUpCatsAlbum));
+        String expectedText = "Cats album";
+        assertEquals( expectedText, tipUpCatsAlbum.getText());
+    }
+    //strong[contains(text(),'Cats album')]
+    @Test
+    public void checkEditButtonSixCat(){
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+        WebElement editSixCat = driver.findElement(By.cssSelector("[class='col-sm-4']:nth-child(6) .card-body [type='button']:nth-child(2)"));
+        wait.until(ExpectedConditions.visibilityOf(editSixCat));
+        String expectedText = "Edit";
+        assertEquals(expectedText,editSixCat.getText());
+    }
+
+
     @After
     public void tearDown() {
         driver.quit();
