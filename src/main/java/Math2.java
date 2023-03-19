@@ -2,7 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Main {
+public class Math2 {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "D:/2 tel run/chromedriver/chromedriver.exe");
         ChromeDriver driver = new ChromeDriver();

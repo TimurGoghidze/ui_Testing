@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87237b75-6c81-4bfd-8fd3-49fe06ef12d0" name="Changes" comment="add HugeForm and Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BirthdayForm.java" afterDir="false" />
+    <list default="true" id="87237b75-6c81-4bfd-8fd3-49fe06ef12d0" name="Changes" comment="update pom with allure dependencies">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestSegterraPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,63 +47,82 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.BirthdayForm.invalidDate">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="ui-testing" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BirthdayForm.dateAndTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ui-testing" />
+  <component name="RunManager" selected="JUnit.DropDown.dropdownTest (1)">
+    <configuration name="Cats.checkCatsCardsQuantity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="saucedemo" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BirthdayForm" />
-      <option name="METHOD_NAME" value="dateAndTime" />
+      <option name="MAIN_CLASS_NAME" value="Cats" />
+      <option name="METHOD_NAME" value="checkCatsCardsQuantity" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BirthdayForm.invalidDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ui-testing" />
+    <configuration name="DropDown.dropdownTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="orangehrmlive-selenide" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BirthdayForm" />
-      <option name="METHOD_NAME" value="invalidDate" />
+      <option name="MAIN_CLASS_NAME" value="DropDown" />
+      <option name="METHOD_NAME" value="dropdownTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HugeForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ui-testing" />
+    <configuration name="DropDown.dropdownTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="saucedemo" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HugeForm" />
+      <option name="MAIN_CLASS_NAME" value="DropDown" />
+      <option name="METHOD_NAME" value="dropdownTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSegterraPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="saucedemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSegterraPage" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HugeForm.allFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ui-testing" />
+    <configuration name="TestSegterraPage.calculationTest2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="saucedemo" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HugeForm" />
-      <option name="METHOD_NAME" value="allFields" />
+      <option name="MAIN_CLASS_NAME" value="TestSegterraPage" />
+      <option name="METHOD_NAME" value="calculationTest2" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="saucedemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="saucedemo" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BirthdayForm.invalidDate" />
-        <item itemvalue="JUnit.BirthdayForm.dateAndTime" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.HugeForm.allFields" />
-        <item itemvalue="JUnit.HugeForm" />
+        <item itemvalue="JUnit.DropDown.dropdownTest (1)" />
+        <item itemvalue="JUnit.Cats.checkCatsCardsQuantity" />
+        <item itemvalue="JUnit.DropDown.dropdownTest" />
+        <item itemvalue="JUnit.TestSegterraPage.calculationTest2 (1)" />
+        <item itemvalue="JUnit.TestSegterraPage" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678751833918</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add datepage and tests">
+      <created>1678892495858</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678892495858</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update pom with allure dependencies">
+      <created>1679002179737</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679002179737</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,6 +224,12 @@
     <MESSAGE value="add 3 Tests" />
     <MESSAGE value="add Test" />
     <MESSAGE value="add HugeForm and Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HugeForm and Test" />
+    <MESSAGE value="add datepage and tests" />
+    <MESSAGE value="update pom with allure dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pom with allure dependencies" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
