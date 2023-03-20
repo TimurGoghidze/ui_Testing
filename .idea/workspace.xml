@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87237b75-6c81-4bfd-8fd3-49fe06ef12d0" name="Changes" comment="update DropDown + test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DragAndDrop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HoverPage.java" afterDir="false" />
+    <list default="true" id="87237b75-6c81-4bfd-8fd3-49fe06ef12d0" name="Changes" comment="add FileUpload">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DragAndDrop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +49,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.HoverPage.hoverOverTest">
+  <component name="RunManager" selected="JUnit.FileUpload.uploadFileTest">
     <configuration name="Cats.checkCatsCardsQuantity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="saucedemo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Cats" />
       <option name="METHOD_NAME" value="checkCatsCardsQuantity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DragAndDrop.dragAndDropTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="orangehrmlive-selenide" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DragAndDrop" />
+      <option name="METHOD_NAME" value="dragAndDropTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,11 +80,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropDown.dropdownTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="saucedemo" />
+    <configuration name="FileUpload.uploadFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="orangehrmlive-selenide" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DropDown" />
-      <option name="METHOD_NAME" value="dropdownTest" />
+      <option name="MAIN_CLASS_NAME" value="FileUpload" />
+      <option name="METHOD_NAME" value="uploadFileTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,16 +95,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HoverPage" />
       <option name="METHOD_NAME" value="hoverOverTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSegterraPage.calculationTest2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="saucedemo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSegterraPage" />
-      <option name="METHOD_NAME" value="calculationTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FileUpload.uploadFileTest" />
+        <item itemvalue="JUnit.DragAndDrop.dragAndDropTest" />
         <item itemvalue="JUnit.HoverPage.hoverOverTest" />
         <item itemvalue="JUnit.DropDown.dropdownTest (1)" />
         <item itemvalue="JUnit.Cats.checkCatsCardsQuantity" />
-        <item itemvalue="JUnit.DropDown.dropdownTest" />
-        <item itemvalue="JUnit.TestSegterraPage.calculationTest2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679186158363</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update HoverPage and Tests">
+      <created>1679247725093</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679247725093</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -233,7 +238,9 @@
     <MESSAGE value="add datepage and tests" />
     <MESSAGE value="update pom with allure dependencies" />
     <MESSAGE value="update DropDown + test" />
-    <option name="LAST_COMMIT_MESSAGE" value="update DropDown + test" />
+    <MESSAGE value="update HoverPage and Tests" />
+    <MESSAGE value="add FileUpload" />
+    <option name="LAST_COMMIT_MESSAGE" value="add FileUpload" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
