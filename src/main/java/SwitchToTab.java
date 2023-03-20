@@ -51,7 +51,6 @@ public class SwitchToTab {
 
     }
 
-
     @After
     public void tearDown() {
         driver.quit();
