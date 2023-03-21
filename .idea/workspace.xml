@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87237b75-6c81-4bfd-8fd3-49fe06ef12d0" name="Changes" comment="add SwitchToTab1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/InsideTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScript.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchToTab2.java" afterDir="false" />
+    <list default="true" id="87237b75-6c81-4bfd-8fd3-49fe06ef12d0" name="Changes" comment="add SwitchToTab2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Frames.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaScript.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +59,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InsideTracker.followLink">
-    <configuration name="FileUpload.uploadFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Frames.frameTest">
+    <configuration name="Frames.frameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="orangehrmlive-selenide" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FileUpload" />
-      <option name="METHOD_NAME" value="uploadFileTest" />
+      <option name="MAIN_CLASS_NAME" value="Frames" />
+      <option name="METHOD_NAME" value="frameTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,21 +90,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchToTab2.browserWindows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaScript.calculationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="orangehrmlive-selenide" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SwitchToTab2" />
-      <option name="METHOD_NAME" value="browserWindows" />
+      <option name="MAIN_CLASS_NAME" value="JavaScript" />
+      <option name="METHOD_NAME" value="calculationTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchToTab.switchToAnotherTab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SwitchToTab2.browserWindows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="orangehrmlive-selenide" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SwitchToTab" />
-      <option name="METHOD_NAME" value="switchToAnotherTab" />
+      <option name="MAIN_CLASS_NAME" value="SwitchToTab2" />
+      <option name="METHOD_NAME" value="browserWindows" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Frames.frameTest" />
+        <item itemvalue="JUnit.JavaScript.calculationTest" />
         <item itemvalue="JUnit.InsideTracker.followLink" />
         <item itemvalue="JUnit.InsideTracker.browserWindows" />
         <item itemvalue="JUnit.SwitchToTab2.browserWindows" />
-        <item itemvalue="JUnit.SwitchToTab.switchToAnotherTab" />
-        <item itemvalue="JUnit.FileUpload.uploadFileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679355390317</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add SwitchToTab2">
+      <created>1679411998150</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679411998150</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,7 +291,8 @@
     <MESSAGE value="add FileUpload" />
     <MESSAGE value="add SwitchToTab" />
     <MESSAGE value="add SwitchToTab1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SwitchToTab1" />
+    <MESSAGE value="add SwitchToTab2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SwitchToTab2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
