@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87237b75-6c81-4bfd-8fd3-49fe06ef12d0" name="Changes" comment="add FileUpload1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchToLab.java" afterDir="false" />
+    <list default="true" id="87237b75-6c81-4bfd-8fd3-49fe06ef12d0" name="Changes" comment="add SwitchToTab1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/InsideTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaScript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchToTab2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -52,27 +55,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.SwitchToTab.switchToAnotherTab">
-    <configuration name="DragAndDrop.dragAndDropTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="orangehrmlive-selenide" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DragAndDrop" />
-      <option name="METHOD_NAME" value="dragAndDropTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DropDown.dropdownTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="orangehrmlive-selenide" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DropDown" />
-      <option name="METHOD_NAME" value="dropdownTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.InsideTracker.followLink">
     <configuration name="FileUpload.uploadFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="orangehrmlive-selenide" />
       <option name="PACKAGE_NAME" value="" />
@@ -83,11 +71,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoverPage.hoverOverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InsideTracker.browserWindows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="orangehrmlive-selenide" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HoverPage" />
-      <option name="METHOD_NAME" value="hoverOverTest" />
+      <option name="MAIN_CLASS_NAME" value="InsideTracker" />
+      <option name="METHOD_NAME" value="browserWindows" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsideTracker.followLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="orangehrmlive-selenide" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InsideTracker" />
+      <option name="METHOD_NAME" value="followLink" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwitchToTab2.browserWindows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="orangehrmlive-selenide" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SwitchToTab2" />
+      <option name="METHOD_NAME" value="browserWindows" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InsideTracker.followLink" />
+        <item itemvalue="JUnit.InsideTracker.browserWindows" />
+        <item itemvalue="JUnit.SwitchToTab2.browserWindows" />
         <item itemvalue="JUnit.SwitchToTab.switchToAnotherTab" />
         <item itemvalue="JUnit.FileUpload.uploadFileTest" />
-        <item itemvalue="JUnit.DragAndDrop.dragAndDropTest" />
-        <item itemvalue="JUnit.HoverPage.hoverOverTest" />
-        <item itemvalue="JUnit.DropDown.dropdownTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -233,8 +241,33 @@
       <option name="project" value="LOCAL" />
       <updated>1679344513723</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add SwitchToTab">
+      <created>1679355189190</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1679355189190</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add SwitchToTab1">
+      <created>1679355390317</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679355390317</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Cats and tests" />
@@ -250,7 +283,9 @@
     <MESSAGE value="update DropDown + test" />
     <MESSAGE value="update HoverPage and Tests" />
     <MESSAGE value="add FileUpload" />
-    <option name="LAST_COMMIT_MESSAGE" value="add FileUpload" />
+    <MESSAGE value="add SwitchToTab" />
+    <MESSAGE value="add SwitchToTab1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SwitchToTab1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
